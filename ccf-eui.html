@@ -17,10 +17,8 @@
   <script>
     window.addEventListener('DOMContentLoaded', () => {
       const eui = document.querySelector('ccf-eui');
-      // Get current URL, but remove any *.html ending, so we get base path
-      const basePath = location.href.replace(/\/[^\/]+\.html/,'/');
       eui.dataSources = [
-        `${basePath}rui_locations.jsonld`,
+        `https://hubmapconsortium.github.io/hra-registrations/hra-gtex-pilot2/rui_locations.jsonld`,
 
         // Uncomment below to add GTEx data
         // 'https://ccf-api.hubmapconsortium.org/v1/gtex/rui_locations.jsonld',
