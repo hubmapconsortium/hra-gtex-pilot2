@@ -1,5 +1,5 @@
-# HRA-GTEx Pilot 2
-## NIH Title: CFDE: Expanded Access to Harmonized Single-Cell Sequencing Pipelines and Data
+# CFDE IU-GTEx
+## NIH Title: CFDE: Map and Harmonize Data for Heart and Lung
 
 ## Primary Deliverables
 
