@@ -3,7 +3,7 @@
 
 ## Primary Deliverables
 
-- List of Datasets for Processing: [Dataset List](https://docs.google.com/spreadsheets/d/1HyUCq8n2zOozOck_Nvrp0RNd1TL4iK9I0C5cb9DuHhY/edit#gid=2095065964)
+- List of Datasets for Processing: [Dataset List](https://docs.google.com/spreadsheets/d/1HyUCq8n2zOozOck_Nvrp0RNd1TL4iK9I0C5cb9DuHhY/edit#gid=1819669777)
 - Datasets Registered with the RUI: [Demo](https://hubmapconsortium.github.io/hra-gtex-pilot2/ccf-eui.html)
 
 ## Primary Tasks:
