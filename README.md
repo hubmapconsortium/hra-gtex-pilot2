@@ -19,5 +19,5 @@
 |---|:-:|:-:|---|
 | M1. Finalize the list of project activities and details of those activities, and collate datasets for Task 1 | March 31, 2023 | Complete | [Datasets](https://docs.google.com/spreadsheets/d/1HyUCq8n2zOozOck_Nvrp0RNd1TL4iK9I0C5cb9DuHhY/edit#gid=2095065964), [RUI Locations](https://hubmapconsortium.github.io/hra-gtex-pilot2/ccf-eui.html) |
 | M2. Complete Task 1 and work on harmonizing and annotating the datasets (Task 2) | Feb 29, 2024 | Complete | Code: [Workflows](https://github.com/hubmapconsortium/hra-workflows), [Runner](https://github.com/hubmapconsortium/hra-workflows) |
-| M3. Implement proposed standards and infrastructure improvements to the registration process (Task 3) and begin to make improved infrastructure available to the CFDE and broader research community (Task 4). | Jun 30, 2024 | Complete | |
+| M3. Implement proposed standards and infrastructure improvements to the registration process (Task 3) and begin to make improved infrastructure available to the CFDE and broader research community (Task 4). | Jun 30, 2024 | Complete | User Stories #1-#2: https://humanatlas.io/overview-use-the-hra|
 | M4. Disseminate products of the projects to the broader research community and demonstrate functionality in CFDE cross-pollination meetings, and more widely through other collaborations (Task 4). | Sep 30, 2024 | On Track | |
