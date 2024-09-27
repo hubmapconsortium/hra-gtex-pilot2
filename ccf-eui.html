@@ -1,32 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>HRA GTEx Pilot 2 -- Experimental data registered via the CCF RUI</title>
-  <base href="https://cdn.jsdelivr.net/gh/hubmapconsortium/ccf-ui@gh-pages/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
-  <link href="styles.css" rel="stylesheet">
-  <script src="wc.js" async></script>
-</head>
-<body>
-  <ccf-eui theme="gtex" use-remote-api="false" hubmap-data-url="" login-disabled="true" logo-tooltip=""
-    home-url="https://hubmapconsortium.github.io/hra-gtex-pilot2/"></ccf-eui>
-  <script>
-    window.addEventListener('DOMContentLoaded', () => {
-      const eui = document.querySelector('ccf-eui');
-      eui.dataSources = [
-        `https://hubmapconsortium.github.io/hra-registrations/hra-gtex-pilot2/rui_locations.jsonld`,
+  <head>
+    <meta charset="utf-8" />
+    <title>Heart and Lung Datasets in HRApop</title>
+    <base href="https://cdn.humanatlas.io/ui/ccf-eui/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <script src="wc.js" async></script>
+  </head>
 
-        // Uncomment below to add GTEx data
-        // 'https://ccf-api.hubmapconsortium.org/v1/gtex/rui_locations.jsonld',
-        
-        // Uncomment below to add HuBMAP data
-        // 'https://ccf-api.hubmapconsortium.org/v1/hubmap/rui_locations.jsonld'
-      ];
-    });
-  </script>
-</body>
+  <body>
+    <ccf-eui
+      logo-tooltip="Heart and Lung Datasets in HRApop"
+      home-url="https://cns-iu.github.io/hra-cell-type-populations-supporting-information/"
+      data-sources='["https://cdn.humanatlas.io/digital-objects/ds-graph/hra-pop-full/latest/assets/full-dataset-graph.jsonld"]'
+      filter='{"ontologyTerms": ["http://purl.obolibrary.org/obo/UBERON_0000948", "http://purl.obolibrary.org/obo/UBERON_0001004"]}'
+      selected-organs='["http://purl.obolibrary.org/obo/UBERON_0002097", "http://purl.obolibrary.org/obo/UBERON_0000948", "http://purl.obolibrary.org/obo/UBERON_0001004"]'
+      theme="hubmap"
+      login-disabled="true"
+    ></ccf-eui>
+  </body>
 </html>
