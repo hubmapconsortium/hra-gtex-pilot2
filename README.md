@@ -24,14 +24,14 @@
 
 ### M4 Results
 
-Demonstrate functionality in CFDE cross-pollination meetings, and more widely through other collaborations
+Demonstrated functionality in CFDE cross-pollination meetings, and more widely through other collaborations
 Improved RUI registration using mapping results: https://humanatlas.io/overview-use-the-hra
 HRApop output was used to create a preview of US#1 and US#2; these are central user stories for creating and validation RUI registrations in a new way.
 
-Write up results in joint paper
+Wrote results in joint paper
 Paper released on Biorxiv Human BioMolecular Atlas Program (HuBMAP): 3D Human Reference Atlas Construction and Usage; includes GTEx data
 
-Disseminate results to broader research community; make improved infrastructure widely available 
+Disseminated results to broader research community; improved infrastructure is widely available 
 Katy presented at the CFDE Program Meeting on March 20 (Katy’s slides)
 Katy and Bruce presented at Knowledge Center meeting July 2024
 Presented at various SenNet and HuBMAP meetings
